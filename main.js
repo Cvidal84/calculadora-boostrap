@@ -26,4 +26,16 @@ document.addEventListener("DOMContentLoaded", () => {
       display.value = "Error";
     }
   });
+
+  //calcular %
+  percentButton.addEventListener("click", () =>{
+    try {
+        display.value = eval(display.value)/100;
+      } catch (error) {
+        display.value = "Error";
+      }
+
+  })
 });
+
+
