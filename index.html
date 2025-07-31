@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculadora Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css">
+    <script src="main.js" defer></script>
+  
+  </head>
+  <body class="d-flex justify-content-center align-items-center min-vh-100 bg-black">
+
+    <div class="container w-25 p-3 bg-light rounded">
+      <h2 class="text-center">Calculadora Bootstrap</h2>
+      <div class="">
+        <div class="">
+          <input type="text" id="display" class="form-control form-control-lg text-end mb-3" readonly />
+
+          <div class="container">
+            <div class="row mb-2">
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="7">7</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="8">8</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="9">9</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="/">/</button>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="4">4</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="5">5</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="6">6</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="*">*</button>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="1">1</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="2">2</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="3">3</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="-">-</button>
+              </div>
+            </div>
+            <div class="row mb-2">
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="0">0</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value=".">.</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-danger" id="clear">C</button>
+              </div>
+              <div class="col-3">
+                <button class="calc-button btn btn-primary" data-value="+">+</button>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12">
+                <button class="calc-button btn btn-success w-100" id="equal">=</button>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
