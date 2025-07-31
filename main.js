@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttons = document.querySelectorAll("button[data-value]");
   const clearButton = document.getElementById("clear");
   const equalButton = document.getElementById("equal");
+  const percentButton = document.getElementById("percent");
 
   // Añadir el data-value del número u operador al final del display
   buttons.forEach((btn) => {
